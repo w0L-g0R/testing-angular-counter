@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {CounterComponent} from "./components/counter/counter/counter.component";
-import {HomeComponent} from "./components/home/home/home.component";
+import {CounterComponent} from "./components/counter/counter.component";
+import {HomeComponent} from "./components/home/home.component";
 
 export const routes: Routes = [
   { path: '', pathMatch: 'full', component: HomeComponent },

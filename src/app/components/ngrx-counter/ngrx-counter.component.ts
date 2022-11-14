@@ -10,7 +10,7 @@ import { selectCounter } from '../../shared/selectors';
 @Component({
   selector: 'app-ngrx-counter',
   templateUrl: './ngrx-counter.component.html',
-  styleUrls: ['./ngrx-counter.component.css'],
+  styleUrls: ['./ngrx-counter.component.sass'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class NgRxCounterComponent {
